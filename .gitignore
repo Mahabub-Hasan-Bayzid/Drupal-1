@@ -1,0 +1,53 @@
+# ------------------------------------------------------------------------------
+# Drupal .gitignore
+# ------------------------------------------------------------------------------
+
+# Ignore dependencies
+/vendor/
+
+# Ignore Composer lock if you want to share only composer.json
+# (Recommended to commit composer.lock if multiple devs work on same project)
+# composer.lock
+
+# Ignore Node dependencies
+/node_modules/
+
+# Ignore OS / Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore Drupal local config
+/sites/*/settings*.php
+/sites/*/services*.yml
+/sites/*/files/
+sites/*/files/
+sites/*/private/
+
+# Ignore backup/misc files
+*.sql
+*.tar.gz
+*.gz
+*.zip
+*.log
+*.bak
+*.swp
+*.swo
+
+# Ignore test output
+simpletest/
+phpunit.xml
+/phpunit.result.cache
+
+# Ignore cache directories
+/sites/*/files/css/
+sites/*/files/js/
+sites/*/files/php/
+sites/*/files/styles/
+sites/*/files/ctools/
+sites/*/files/advagg_css/
+sites/*/files/advagg_js/
+
+# Ignore environment-specific files
+.env
