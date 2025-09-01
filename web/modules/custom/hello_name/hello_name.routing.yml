@@ -1,0 +1,7 @@
+hello_name.content:
+  path: "/hello-name"
+  defaults:
+    _controller: '\Drupal\hello_name\Controller\HelloNameController::content'
+    _title: "Hello Name"
+  requirements:
+    _permission: "access content"

@@ -1,0 +1,6 @@
+name: Hello Name
+type: module
+description: "A simple module to print your name."
+package: Custom
+core_version_requirement: ^10 || ^9
+version: "1.0"
