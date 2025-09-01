@@ -1,0 +1,15 @@
+hello_form.form:
+  path: "/hello-form"
+  defaults:
+    _form: '\Drupal\hello_form\Form\HelloForm'
+    _title: "Enter Your Name"
+  requirements:
+    _permission: "access content"
+
+hello_form.result:
+  path: "/hello-form/result/{name}"
+  defaults:
+    _controller: '\Drupal\hello_form\Controller\HelloFormController::printName'
+    _title: "Your Name"
+  requirements:
+    _permission: "access content"

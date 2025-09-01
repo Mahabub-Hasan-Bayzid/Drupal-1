@@ -1,0 +1,5 @@
+name: Hello Form
+type: module
+description: "A practice module that prints your name with a form."
+core_version_requirement: ^9 || ^10
+package: Custom
